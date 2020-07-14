@@ -1,0 +1,76 @@
+/*.tableCustomers {
+  color: white;
+}
+
+.tableCustomers:hover {
+  color: red;
+}
+*/
+
+.theadCustomers {
+  color: white;
+  background-color: rgba(0,0,0,.2);
+}
+
+.tbodyCustomers {
+  color: gainsboro;
+}
+
+.tbodyCustomers:hover {
+  /*color: red;*/
+}
+
+.trCustomers:hover {
+  /*color: aliceblue;*/
+}
+
+.tableCustomers:hover {
+  color: white !important;
+}
+
+.printBtn {
+
+	/*padding: .25rem .5rem !important;*/
+    font-size: .875rem !important;
+    line-height: 1.5 !important;
+    border-radius: .2rem !important;
+
+    color: #007bff !important;
+    border-color: #007bff !important;
+
+    display: inline-block !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    background-color: transparent !important;
+
+    /*padding: .375rem .75rem !important;*/
+    padding: .05rem .75rem !important;
+    margin: 0 10px 0 0;
+
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    border-radius: .25rem !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+
+    -webkit-appearance: button !important;
+
+    overflow: visible !important;
+}
+
+.printBtn:hover {
+	color: white !important;
+	/*background-color: #007bff !important:*/
+	/*background: #007bff !important: */
+	background-color: #007bff !important;
+}
+
+.printBtn:focus {
+	outline: none;
+	/*border: none;*/
+	border-color: #007bff !important;
+}

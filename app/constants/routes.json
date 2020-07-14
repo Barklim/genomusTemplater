@@ -1,0 +1,7 @@
+{
+  "HOME": "/",
+  "IMPORTTABLE": "/importtable",
+  "TEMPLATEID": "/user/:id&:firstname&:lastname&:email&:adress&:genid",
+  "CUSTOMERS": "/customers",
+  "COUNTER": "/counter"
+}
