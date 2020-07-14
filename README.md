@@ -12,7 +12,8 @@ Try importing files in example directory.
 
 ## Todo
 
-* Images of project
+* Images of project (How To)
+* add preview pdf
 
 ## Paper
 
