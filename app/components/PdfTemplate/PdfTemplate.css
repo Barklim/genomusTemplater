@@ -1,0 +1,109 @@
+/* this style dont work in style attribute */
+/* <div style="position:absolute;left:50%;margin-left:-420px;top:0px;width:841px;height:595px;border-style:outset;overflow:hidden"> */
+.fixWrapper {
+	/*position:absolute;*/
+	position:relative;
+	/*left:50%;*/
+	/*margin-left:-420px;*/
+	top:0px;
+	/*width:841px;*/
+	/*height:595px;*/
+	border-style:outset;
+	overflow:hidden;
+
+	width:1074px; 
+	height: 760px;
+}
+/* fix image html */
+/* 			<img src="img/background1.jpg" className="fixImage1" width=841 height=595 ></div> */
+
+.page1Img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.fixImage1,
+.fixImage2 {
+	/*width:841;*/
+	/*height:595; */
+
+	/*width:1140; */
+
+	width:1074px; 
+	height: 760px;
+/*		width:100%; 
+	height: 100%;*/
+}
+
+.fixWrapper1 {
+	position:absolute;
+	left:50%;
+	margin-left:-420px;
+	top:605px;
+	width:841px;
+	height:595px;
+	border-style:outset;
+	overflow:hidden
+}
+
+span.cls_002{font-family:"Century",serif;font-size:12.1px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:"Century",serif;font-size:12.1px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:"Century",serif;font-size:27.3px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:"Century",serif;font-size:27.3px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Century",serif;font-size:27.6px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Century",serif;font-size:27.6px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:"Century",serif;font-size:14.1px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:"Century",serif;font-size:14.1px;color:rgb(42,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:"Century",serif;font-size:12.1px;color:rgb(67,66,66);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_007{font-family:"Century",serif;font-size:12.1px;color:rgb(67,66,66);font-weight:normal;font-style:normal;text-decoration: none}
+
+.p1line1 {
+	position: absolute; 
+	left:53.24px; 
+	top:16.22px
+}
+
+.p2line1 {
+    font-size:32.3px !important;
+}
+/*67
+Page 1
+230 8
+244 9
+259 10
+273 11
+287 12
+302 13
+316 14
+
+344 14
+359 15
+373 16
+387 17
+402 18
+416 19
+465 20
+
+445 20
+459 21
+473 22
+487 23
+
+516 23
+530 24
+545 25
+559 26
+
+Page 2
+
+390
+405 1
+420 2
+435 3
+450 4
+465 5
+480 6
+495 7
+510 8
+*/

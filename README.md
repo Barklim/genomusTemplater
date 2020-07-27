@@ -4,6 +4,40 @@ Programm for importing Excel to exporting pdf template.
 
 Try importing files in example directory.
 
+You can see imported .xlcx blank table and result in /example/qr_code(exported).pdf
+
+## HowTo
+
+1: Home Page with routes for: 
+* importing .xlsx and export pdf.
+* export .xlsx files
+
+![GitHub Logo](/i/1.png) 
+
+2: Initial state table.
+
+![GitHub Logo](/i/2.png) 
+
+3: Lets import some table.
+
+![GitHub Logo](/i/3.png)
+
+4: The imported table is structured into DOM-tree.
+
+![GitHub Logo](/i/4.png)  
+
+5: Lets see preview the template and click button 'View'.
+
+![GitHub Logo](/i/5.png) 
+
+6: Save pdf file and enjoy result. :tada:
+
+![GitHub Logo](/i/6.png) 
+
+7: Now we can export file to .xlsx but cannot editting yet.
+
+![GitHub Logo](/i/7.png) 
+
 ## Docs
 
 * https://github.com/electron-react-boilerplate/electron-react-boilerplate
@@ -23,6 +57,7 @@ Try importing files in example directory.
 
 ## Garbage:
 
+pdf to css
 open read file js
 node js open file
 npm pdf
@@ -30,6 +65,14 @@ react onload excel
 xlsx upload worksheet
 
 react-pdf, @react-pdf/renderer
+
+main.dev.ts fix:
+
+fixed issues
+https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/2434
+
+issues
+Supplied Data is not a valid base64-String jsPDF.convertStringToImageData
 
 ## Botstrapped
 

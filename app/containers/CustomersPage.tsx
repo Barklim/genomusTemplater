@@ -14,8 +14,6 @@ class CounterPage extends React.Component {
       custs.push({firstName: `first${i}`, lastName: `last${i}`,
       email: `abc${i}@gmail.com`, address: `000${i} street city, ST`, genId: `0000${i}`});
     }
-    console.log('sdf')
-    console.log(custs)
     return custs;
   }
 

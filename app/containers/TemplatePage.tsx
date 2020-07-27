@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom';
 
 import Button from 'react-bootstrap/Button';
 
+import PdfTemplate from '../components/PdfTemplate/PdfTemplate';
+
 import Pdf from "react-to-pdf";
 const ref = React.createRef();
 
+const options = {
+    orientation: 'landscape',
+    // unit: 'in',
+    // format: [1074,760]
+    format: [850,570]
+};
+
 class TemplatePage extends React.Component {
-
-  componentDidMount() {
-
-  	  console.log('TEST1')
-      console.log(this.props)
-      console.log(this.props.match.params)
-
-      // alert('Должно открыться окно для сохранения файла')}
-  }
 
 	render() {
       return (
@@ -29,25 +29,24 @@ class TemplatePage extends React.Component {
 	          </Link>
 	        </div>
 
-	       	<div className="row">
+	       	<div className="row" style={{height: 26}}>
 	          <div className="col-md-10">
-	            <div>Будущий темплейт для печати и экспорта pdf файла</div>
+	            <p className='h2' color='secondary'>Html template for export pdf file</p>
 	          </div>
+
 	          <div className="col-md-1 center">
-              <Pdf targetRef={ref} filename="code-example.pdf">
+              <Pdf targetRef={ref} filename="qr_code.pdf" options={options}>
                 {({ toPdf }) => <Button variant='primary' onClick={toPdf}>Print</Button>}
               </Pdf>
 	          </div>
 	        </div>
         	       
         	<br/>
-        	<ul ref={ref}>
-        		<li>Ваш GenId: {this.props.match.params.genid}</li>
-        		<li>ФИО: {this.props.match.params.firstname} &nbsp; {this.props.match.params.lastname}</li>
-        		<li></li>
-        		<li>Qr-code картинка</li>
-        		<li></li>
-        	</ul>
+        	<div ref={ref} style={{width: 1074, height: 760}}>
+
+          <PdfTemplate userInfo={this.props.match.params}/>
+
+        	</div>
 
         <style jsx>
         {`
@@ -63,5 +62,10 @@ class TemplatePage extends React.Component {
     }
 
 }
+            // <li>Ваш GenId: {this.props.match.params.genid}</li>
+            // <li>ФИО: {this.props.match.params.firstname} &nbsp; {this.props.match.params.lastname}</li>
+            // <li></li>
+            // <li>Qr-code картинка</li>
+            // <li></li>
 
 export default TemplatePage;
