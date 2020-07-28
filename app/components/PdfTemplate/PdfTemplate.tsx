@@ -12,8 +12,9 @@ console.log(props)
 			<div className="fixWrapper">
 
 				<div className='page1Img'>
-					<img src="components/PdfTemplate/img/background1.jpg" className="fixImage1"/>
+					<img src="https://sun1-26.userapi.com/VMZyErwN9LFIpOhG_h8AFNb5RbfjqIYUf6MD8A/8EZqie7K83g.jpg" className="fixImage1"/>
 				</div>
+			
 
 				<div style={{ position:'absolute', left:'53.24px', top:'116.22px' }} className="cls_002"><span className="cls_002 p1line1">Жизнь наших клеток управляется генами. Гены - участки</span></div>
 				<div style={{ position:'absolute', left:'17.24px', top:'131.51px' }} className="cls_002"><span className="cls_002">длинной цепочки ДНК, отвечающие за синтез несущих какую-</span></div>
@@ -158,3 +159,20 @@ console.log(props)
 			// 		<img src="components/PdfTemplate/img/background2.jpg" className="fixImage2" />
 			// 	</div>
 			// </div>
+
+
+
+
+
+
+
+			     //    <img
+        //   src="https://lh3.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU"
+        //   className={""}
+        //   alt=""
+        //   style={{ width: 300 }}
+        // />
+
+    //     				<div className='page1Img'>
+				// 	<img src="components/PdfTemplate/img/background1.jpg" className="fixImage1"/>
+				// </div>

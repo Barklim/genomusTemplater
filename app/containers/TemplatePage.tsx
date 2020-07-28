@@ -62,10 +62,5 @@ class TemplatePage extends React.Component {
     }
 
 }
-            // <li>Ваш GenId: {this.props.match.params.genid}</li>
-            // <li>ФИО: {this.props.match.params.firstname} &nbsp; {this.props.match.params.lastname}</li>
-            // <li></li>
-            // <li>Qr-code картинка</li>
-            // <li></li>
 
 export default TemplatePage;

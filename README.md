@@ -46,8 +46,7 @@ You can see imported .xlcx blank table and result in /example/qr_code(exported).
 
 ## Todo
 
-* Images of project (How To)
-* add preview pdf
+* Edit Excel File
 
 ## Paper
 
@@ -73,6 +72,11 @@ https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/
 
 issues
 Supplied Data is not a valid base64-String jsPDF.convertStringToImageData
+
+DEBUG_PROD=true yarn build && DEBUG_PROD=true yarn start
+
+fix image issue
+https://github.com/ivmarcos/react-to-pdf/issues/21
 
 ## Botstrapped
 
